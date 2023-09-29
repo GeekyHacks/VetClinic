@@ -54,8 +54,6 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> This repository includes files with plain SQL that can be used to recreate a database:
-
 - Use schema.sql to create all tables.
 - Use data.sql to populate tables with sample data.
 - Check queries.sql for examples of queries that can be run on a newly created database. Important note: this file might include queries that make changes in the database (e.g., remove records). Use them responsibly!
@@ -70,16 +68,9 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-<!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
-
-> Mention all of the collaborators of this project.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 👤 **GeekyHacks**
-
 - GitHub: [Geekyhacks](https://github.com/GeekyHacks)
 - Twitter: [Geekydart](https://twitter.com/GeekyDart)
 - LinkedIn: [Abdullah Nasser](https://www.linkedin.com/in/abdullah-nasser-711625268/)
@@ -103,8 +94,7 @@ people.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank...
-
+I would like to thank:
 - Microverse Review Team
 - Microverse Community in Slack
 - my Mentor @Strangeal
