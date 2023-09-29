@@ -41,13 +41,14 @@ SELECT * FROM animals;
 COMMIT;
 SELECT * FROM animals;
 
-/* querry to delete all records in the animals table and then roll back the transaction:*/
+/* query to delete all records in the animals table and then roll back the transaction:*/
 
 BEGIN;
 DELETE FROM animals;
 SELECT * FROM animals;
 ROLLBACK;
 SELECT * FROM animals;
+
 /*query to delete all animals born after Jan 1st, 2022. Create a savepoint, update all animals' weight to be their weight multiplied by -1, and then rollback to the savepoint:*/
 BEGIN;
 DELETE FROM animals WHERE date_of_birth > '2022-01-01';
@@ -57,7 +58,7 @@ SET weight_kg = weight_kg * -1;
 ROLLBACK TO sp1;
 SELECT * FROM animals;
 
-/*Uerry to update the weights of all animals that are negative to be their weight multiplied by -1, and then commit the transaction:*/
+/*query to update the weights of all animals that are negative to be their weight multiplied by -1, and then commit the transaction:*/
 
 BEGIN;
 UPDATE animals SET weight_kg = weight_kg * -1 WHERE weight_kg < 0;
