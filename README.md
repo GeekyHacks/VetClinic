@@ -3,10 +3,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <h3><b>Vet Clinic
-</b></h3>
   <p>its a project created with PLpgSQL that store and display a database for vet clinic..</p>
-
 </div>
 
 <a name="readme-top"></a>
