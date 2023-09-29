@@ -30,7 +30,6 @@
 
 - its a project created with PLpgSQL that store and display a database for vet clinic.
 
-**Vet Clinic** is a...
 
 ## 🛠 Built With <a name="built-with"></a>
 
