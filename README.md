@@ -1,12 +1,23 @@
+# Vet Clinic
 
 <a name="readme-top"></a>
+
+<div align="center">
+  <h3><b>Vet Clinic
+</b></h3>
+  <p>its a project created with PLpgSQL that store and display a database for vet clinic..</p>
+
+</div>
+
+<a name="readme-top"></a>
+
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  <!-- - [🚀 Live Demo](#live-demo) -->
+    <!-- - [🚀 Live Demo](#live-demo) -->
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -18,13 +29,11 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
+# 📖 Vet Clinic <a name="about-project"></a>
 
-
-# 📖 [Vet Clinic] <a name="about-project"></a>
 - its a project created with PLpgSQL that store and display a database for vet clinic.
 
-
-**[Vet Clinic]** is a...
+**Vet Clinic** is a...
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -42,7 +51,6 @@
 ### Key Features <a name="key-features"></a>
 
 - Basic setup for a database
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
