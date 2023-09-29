@@ -10,10 +10,6 @@
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -25,7 +21,7 @@
 
 
 # 📖 [Vet Clinic] <a name="about-project"></a>
-  > its a project created with PLpgSQL that store and display a database for vet clinic.
+- its a project created with PLpgSQL that store and display a database for vet clinic.
 
 
 **[Vet Clinic]** is a...
@@ -45,20 +41,8 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
+- Basic setup for a database
 
-- **[basic setup for a database]**
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-<!-- ## 🚀 Live Demo <a name="live-demo"></a>
-
-> Add a link to your deployed project.
-
-- [Live Demo Link](<replace-with-your-deployment-URL>) -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -89,8 +73,6 @@ Clone this repository to your desired folder:
 > Mention all of the collaborators of this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 👥 Authors <a name="authors"></a>
 
 👤 **GeekyHacks**
 
