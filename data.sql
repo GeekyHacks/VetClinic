@@ -19,3 +19,11 @@ VALUES ('Sam Smith', 34),('Jennifer Orwell', 19),('Bob', 45),('Melody Pond', 77)
 /* populate data in the species table*/
 INSERT INTO species (name)
 VALUES ('Pokemon'),('Digimon');
+
+
+/* Update the animals table to have the right suffix for species*/
+UPDATE animals SET species_id = CASE
+    WHEN name LIKE '%mon' THEN (SELECT id FROM species WHERE name = 'Digimon')
+    ELSE (SELECT id FROM species WHERE name = 'Pokemon')
+  END;
+  
