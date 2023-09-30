@@ -56,8 +56,13 @@ VALUES ('Vet William Tatcher', 45, '2000-04-23'),('Vet Maisy Smith', 26, '2019-0
   ('Vet Jack Harkness', 38, '2008-06-08');
 
 /*Insert data into the specializations table*/
-INSERT INTO specializations (vet_id, species)
-VALUES (1, 'Pokemon'), (3, 'Digimon'), (3, 'Pokemon'), (4, 'Digimon');
+INSERT INTO specializations
+    VALUES
+      (1,1),
+      (1,3),
+      (2,3),
+      (2,4)
+  ;
 /* Insert data into the visits table */
 INSERT INTO visits (animal_id, vet_id, visit_date)
 VALUES
