@@ -30,3 +30,6 @@ CREATE TABLE vets ( id SERIAL PRIMARY KEY, name VARCHAR(100), age INTEGER, date_
 CREATE TABLE specializations ( vet_id INTEGER REFERENCES vets(id), species VARCHAR(100), PRIMARY KEY (vet_id, species));
 /*Create the visits table*/
 CREATE TABLE visits (animal_id INTEGER REFERENCES animals(id),vet_id INTEGER REFERENCES vets(id),visit_date DATE,PRIMARY KEY (animal_id, vet_id, visit_date));
+
+/*Add unique constraint to the id column of the animals table to avoid errors*/
+ALTER TABLE animals ADD CONSTRAINT animals_id_unique UNIQUE (id);
