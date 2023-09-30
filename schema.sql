@@ -16,7 +16,7 @@ CREATE TABLE owners (id SERIAL PRIMARY KEY, full_name VARCHAR(250),age INT);
 CREATE TABLE species (id SERIAL PRIMARY KEY, name VARCHAR(100));
 
 /*Alter the "id" column to set it as an auto-incremented primary key*/
-ALTER TABLE animals ALTER COLUMN id ADD GENERATED ALWAYS AS IDENTITY PRIMARY KEY;
+ALTER TABLE animals ALTER COLUMN id ADD GENERATED ALWAYS AS IDENTITY;
 /* Remove the "species" column*/
 ALTER TABLE animals DROP COLUMN IF EXISTS species;
 /* Add the "species_id" column as a foreign key referencing the "id" column in the "species" table */
