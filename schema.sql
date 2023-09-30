@@ -27,7 +27,12 @@ ALTER TABLE animals ADD COLUMN owner_id INT REFERENCES owners(id);
 /*creating vets table*/
 CREATE TABLE vets ( id SERIAL PRIMARY KEY, name VARCHAR(100), age INTEGER, date_of_graduation DATE );
 /*Create the specializations table*/
-CREATE TABLE specializations ( vet_id INTEGER REFERENCES vets(id), species VARCHAR(100), PRIMARY KEY (vet_id, species));
+CREATE TABLE specializations(
+    species_id INT,
+    vet_id INT,
+    CONSTRAINT fk_species FOREIGN KEY(species_id) REFERENCES species(id),
+    CONSTRAINT fk_vets FOREIGN KEY(vet_id) REFERENCES vets(id)
+);
 /*Create the visits table*/
 CREATE TABLE visits (animal_id INTEGER REFERENCES animals(id),vet_id INTEGER REFERENCES vets(id),visit_date DATE,PRIMARY KEY (animal_id, vet_id, visit_date));
 
