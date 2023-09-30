@@ -27,3 +27,24 @@ UPDATE animals SET species_id = CASE
     ELSE (SELECT id FROM species WHERE name = 'Pokemon')
   END;
   
+
+/*Update owner_id for Agumon*/
+UPDATE animals SET owner_id = (SELECT id FROM owners WHERE full_name = 'Sam Smith') WHERE name = 'Agumon';
+/*Update owner_id for Gabumon*/
+UPDATE animals SET owner_id = (SELECT id FROM owners WHERE full_name = 'Jennifer Orwell') WHERE name = 'Gabumon';
+/*Update owner_id for Pikachu*/
+UPDATE animals SET owner_id = (SELECT id FROM owners WHERE full_name = 'Jennifer Orwell') WHERE name = 'Pikachu';
+/*Update owner_id for Devimon*/
+UPDATE animals SET owner_id = (SELECT id FROM owners WHERE full_name = 'Bob') WHERE name = 'Devimon';
+/*Update owner_id for Plantmon*/
+UPDATE animals SET owner_id = (SELECT id FROM owners WHERE full_name = 'Bob') WHERE name = 'Plantmon';
+/*Update owner_id for Charmander*/
+UPDATE animals SET owner_id = (SELECT id FROM owners WHERE full_name = 'Melody Pond') WHERE name = 'Charmander';
+/*Update owner_id for Squirtle*/
+UPDATE animals SET owner_id = (SELECT id FROM owners WHERE full_name = 'Melody Pond') WHERE name = 'Squirtle';
+/*Update owner_id for Blossom*/
+UPDATE animals SET owner_id = (SELECT id FROM owners WHERE full_name = 'Melody Pond') WHERE name = 'Blossom';
+/*Update owner_id for Angemon*/
+UPDATE animals SET owner_id = (SELECT id FROM owners WHERE full_name = 'Dean Winchester') WHERE name = 'Angemon';
+/*Update owner_id for Boarmon*/
+UPDATE animals SET owner_id = (SELECT id FROM owners WHERE full_name = 'Dean Winchester') WHERE name = 'Boarmon';
