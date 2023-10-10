@@ -101,6 +101,7 @@ I would like to thank:
 - Microverse Review Team
 - Microverse Community in Slack
 - my Mentor @Strangeal
+- My coding partner @omwomo
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
